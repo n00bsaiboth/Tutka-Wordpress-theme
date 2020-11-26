@@ -1,0 +1,466 @@
+/* Theme Name: Tutka
+ * Theme URI: 
+ * Description:
+ * Author: Jussi Jokinen
+ * Author URI: http://infected-design.net
+ * Version: 0.1
+ */
+
+/* Reset
+ * 
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html {
+  font: 100%/150% Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+/* IE and no-js definitions
+ * 
+ */
+
+.ie6, .ie7, .ie8, .no-js {
+	
+}
+
+.gradient {
+	filter: none;
+}
+
+/* Grid
+ *
+ */
+ 
+.container {
+	max-width: 60.000em;
+	margin: 0 auto;
+	padding: 0 1.875em;
+	padding: 0 1.5rem;
+}
+
+.grid {
+	margin-left: -3%;
+	max-width: 105%;
+}
+
+.unit {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: top;
+	margin-left: 3%;
+	margin-right: -.25em;
+	overflow: hidden;
+	*overflow: visible;
+}
+.unit-inside {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: top;
+	overflow: hidden;
+	*overflow: visible;
+}
+
+.span-grid {
+  width: 97%;
+}
+
+.one-of-four {
+  width: 22.05%;
+}
+
+.two-of-four {
+  width: 47.0%;
+}
+
+.three-of-four {
+  width: 70.4%;
+}
+
+.four-of-four {
+  width: 94.04%;
+}
+
+/* html 5 tages
+ * 
+ */
+
+hgroup h2,
+hgroup h4 {
+	display:inline-block;
+}
+
+img {
+  max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+footer .box .margin-left-fix p {
+	margin-top: 0.625em;
+	margin-bottom: 0.625em;
+}
+
+
+/* Custom settings
+ * 
+ */
+
+.box {
+  width: 99%;
+  height: 99%;
+  border: 0.063em solid #ccc;
+  border-radius: 0.425em;
+      -webkit-box-shadow: 0em 0em 0.375em rgba(0, 0, 0, 0.3);
+	     -moz-box-shadow:    0em 0em 0.375em rgba(0, 0, 0, 0.3);
+		      box-shadow:         0em 0em 0.375em rgba(0, 0, 0, 0.3);
+}
+
+.box-with-margin {
+  margin: 0.625em;	
+  width: 90%;
+  height: 99%;
+  border: 0.063em solid #ccc;
+  border-radius: 0.425em;
+      -webkit-box-shadow: 0em 0em 0.375em rgba(0, 0, 0, 0.3);
+	     -moz-box-shadow:    0em 0em 0.375em rgba(0, 0, 0, 0.3);
+		      box-shadow:         0em 0em 0.375em rgba(0, 0, 0, 0.3);	
+}
+
+.image-container {
+  width: 480px;
+	margin: 0.625em;
+	max-width: 90%;
+}
+
+.image-container-small {
+  width: 280px;
+  margin-top: 0.625em;
+  margin-bottom: 0.625em;
+  max-width: 90%;
+	
+}
+
+.margin-left-fix {
+  margin-left: 0.625em;	
+}
+
+.margin-left-fix ul {
+	list-style: none;
+}
+
+.featured-articles,
+.rest-of-the-news,
+.footer-widgets,
+.category-view,
+.fat-footer,
+.footer,
+.error-view,
+.searchform,
+.page,
+.header,
+.main-news,
+.single-view,
+.author-view,
+.archive-view,
+.search-view {
+	margin-top: 0.625em;
+}
+
+.widget-area .widget {
+    	margin-top: 0.625em;
+    	margin-bottom: 0.625em;	
+}
+
+.widget-area .widget .widget-title,
+.widget-area .widget .textwidget {
+	margin-left: 0.625em;
+}
+
+.aside-quick-fix {
+	margin-left: 40px;
+}
+
+#main-aside {
+	
+}
+
+#main-sidebar {
+	text-align: center;
+}
+
+#search-inputs {
+	margin: 0.625em;
+}
+
+#search-inputs input[type=text] {
+  height: 2.500em;
+  width: 15.000em;
+  border: 0.063em solid #ccc;
+  border-radius: 0.425em; 
+      -webkit-box-shadow: 0em 0em 0.375em rgba(0, 0, 0, 0.3);
+	     -moz-box-shadow:    0em 0em 0.375em rgba(0, 0, 0, 0.3);
+		      box-shadow:         0em 0em 0.375em rgba(0, 0, 0, 0.3);	
+  font-family: BenchNine;
+}
+
+#search-inputs input[type=submit] {
+  height: 2.500em;
+  width: 2.500em;
+  background:#fff;
+  color:#000;
+  font-family: BenchNine;
+  border-radius: 0.425em; 
+  border: 0.063em solid #999;  
+}
+
+/* nav
+ * 
+ */
+
+.main-navigation {
+	width: 99%;
+	border-top: 0.063em solid #ccc;
+}
+
+.main-navigation .main-menu ul li {		
+	margin-top: 0.825em;
+	display: inline-block;
+}
+.main-navigation .main-menu ul li a {	
+	height: 3.563em;
+	width: 12.500em;
+	border-right: 0.063em solid #ccc;
+	padding: 0.825em;
+	text-decoration: none;
+}
+
+.main-navigation .main-menu ul li a:last-child {
+	border-right: none;
+}
+
+.main-navigation .main-menu ul li a:hover {
+	text-decoration:underline;
+}
+
+#menu-icon {
+	display: none;
+}
+
+/* Font faces
+ * 
+ */
+
+@font-face {
+	font-family: Quicksand;
+	src: url('fonts/Quicksand-Regular.ttf');
+}
+
+@font-face {
+	font-family: Economica;
+	src: url('fonts/Economica-Regular.ttf');
+}
+
+@font-face {
+	font-family: BenchNine;
+	src: url('fonts/BenchNine-Regular.ttf');
+}
+
+h1,h2,h3,h4,h5,h6 {
+	display: block;
+	font-family: Quicksand;
+}
+
+p {
+	display:block;
+	font-family: BenchNine;
+}
+
+a {
+	font-family: Economica;
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p, .p, ul, ol, hr, table, form, pre,
+h1, .alpha, h2, .beta {
+  margin-bottom: 1.875em;
+  margin-bottom: 1.5rem;
+}
+
+h1, .alpha {
+  font-size: 3.750em;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+h2, .beta {
+  font-size: 1.875em;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2;
+}
+
+h3, .gamma {
+  font-size: 1.250em;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.875em;
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 2;
+}
+
+hr {
+  border: none;
+  border-bottom: 0.063em solid rgba(0,0,0,.1);
+}
+
+/* Mobile devices
+ * 
+ */
+
+@media only screen and (min-width: 0.063em) and (max-width: 480px) {
+	html {
+		font-size: 100%;
+	}
+	.grid {
+		margin-left: 0;
+		max-width: none;
+	}
+
+    .unit-inside,
+	.unit {
+		width: auto;
+		margin-left: 0;
+		display: block;
+	}
+	
+	/* html5 tags
+	 * 
+	 */
+	
+	hgroup h2,
+	hgroup h4 {
+		display: block;
+	}	
+	
+	/* nav
+	 * 
+	 */
+	
+	.main-navigation {
+		border-top: 0.063em solid #ccc;
+		border-bottom: 0.063em solid #ccc;
+	}
+	
+	.main-navigation .main-menu ul li {		
+		width: auto;
+		margin-left: 0;
+		display: block;
+	}
+	
+	.main-navigation .main-menu ul li a {	
+		height: 3.563em;
+		width:auto;
+		margin: 0.625em;
+		padding: 0.825em;
+		text-decoration: none;
+		border: 0.063em solid #ccc;
+		  border-radius: 0.425em;
+      -webkit-box-shadow: 0em 0em 0.375em rgba(0, 0, 0, 0.3);
+	     -moz-box-shadow:    0em 0em 0.375em rgba(0, 0, 0, 0.3);
+		      box-shadow:         0em 0em 0.375em rgba(0, 0, 0, 0.3);	
+		display: block;
+	}
+	
+	.main-navigation .main-menu ul li a:hover {
+		text-decoration: underline;
+	}
+		
+}
+
+/* Handhelds devices
+ * 
+ */
+
+@media only screen and (min-width: 480.063em) and (max-width: 800px) {
+	html {
+		font-size: 100%;
+	}
+	
+	.grid {
+		margin-left: 0;
+		max-width: none;
+	}
+	
+    .unit-inside,
+	.unit {
+		width: auto;
+		margin-left: 0;
+		display: block;
+	}
+	
+	
+	/* html5 tags
+	 * 
+	 */
+	
+	hgroup h2,
+	hgroup h4 {
+		display: block;
+	}	
+	
+	/* nav
+	 * 
+	 */
+	
+	.main-navigation {
+		width: 99%;
+		border-top: 0.063em solid #ccc;
+		border-bottom: 0.063em solid #ccc;
+	}
+	
+	.main-navigation .main-menu ul li {		
+		width: auto;
+		margin-left: 0;
+		display: block;
+	}
+	
+	.main-navigation .main-menu ul li a {	
+		          height: 3.563em;
+		           width: auto;
+		          margin: 0.625em;
+		         padding: 0.825em;
+		 text-decoration: none;
+		          border: 0.063em solid #ccc;
+		   border-radius: 0.425em;
+      -webkit-box-shadow: 0em 0em 0.375em rgba(0, 0, 0, 0.3);
+	     -moz-box-shadow:    0em 0em 0.375em rgba(0, 0, 0, 0.3);
+		      box-shadow:         0em 0em 0.375em rgba(0, 0, 0, 0.3);	
+		         display: block;
+	}
+	
+	.main-navigation .main-menu ul li a:hover {
+		text-decoration: underline;
+	}
+	
+}
